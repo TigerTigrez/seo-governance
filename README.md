@@ -1,1 +1,1 @@
-# SEO Governance and SOP Starter Kit
+# SEO Governance Starter Kit
