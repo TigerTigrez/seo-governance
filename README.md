@@ -1,4 +1,4 @@
-# SEO Governance Starter Kit
+```text
 seo-governance-starter-kit/
 ├─ README.md
 ├─ LICENSE
