@@ -1,0 +1,9 @@
+cluster_id,content_type,page_key,hreflang,href,is_x_default,is_canonical,include_in_sitemap,last_reviewed,notes
+home,HUB,/,en-us,https://www.example.gov/,FALSE,TRUE,TRUE,YYYY-MM-DD,"Primary EN-US"
+home,HUB,/,es-us,https://www.example.gov/es/,FALSE,FALSE,TRUE,YYYY-MM-DD,"Spanish US"
+home,HUB,/,fr-ca,https://www.example.gov/fr-ca/,FALSE,FALSE,TRUE,YYYY-MM-DD,"French Canada"
+home,HUB,/,x-default,https://www.example.gov/,TRUE,FALSE,TRUE,YYYY-MM-DD,"Fallback to EN-US"
+
+benefits-eligibility,ARTICLE,/benefits/eligibility/,en-gb,https://www.example.gov/en-gb/benefits/eligibility/,FALSE,TRUE,TRUE,YYYY-MM-DD,"UK canonical"
+benefits-eligibility,ARTICLE,/benefits/eligibility/,en-au,https://www.example.gov/en-au/benefits/eligibility/,FALSE,FALSE,TRUE,YYYY-MM-DD,"AU alt"
+benefits-eligibility,ARTICLE,/benefits/eligibility/,x-default,https://www.example.gov/benefits/eligibility/,TRUE,FALSE,TRUE,YYYY-MM-DD,"Global fallback"
