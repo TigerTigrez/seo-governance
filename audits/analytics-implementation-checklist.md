@@ -63,3 +63,23 @@ window.dataLayer.push({
     role: 'anonymous' // or 'internal_tester' if whitelisted
   }
 });
+```
+###  4.2 Interaction Events (Examples)
+```js
+dataLayer.push({
+  event: 'cta_click',
+  cta: {
+    id: 'HOMEPAGE_HERO_PRIMARY',
+    text: 'APPLY NOW',
+    destination: '/apply'
+  }
+});
+
+dataLayer.push({
+  event: 'search',
+  search: {
+    query: 'REDACTED',       // Strip or hash if policy requires
+    result_count: 42
+  }
+});
+
