@@ -1,0 +1,13 @@
+{
+  "MaxThreads": 5,
+  "UserAgent": "ScreamingFrogSEOSpider/Latest (+PUBLIC-CONTACT-EMAIL)",
+  "RenderJavaScript": true,
+  "RespectRobotsTxt": true,
+  "StoreHTML": false,
+  "LimitCrawlDepth": 0,
+  "IncludeSubdomains": false,
+  "Exclude": [
+    "/ADMIN_PATH/",
+    "/INTERNAL_TOOLS/"
+  ]
+}

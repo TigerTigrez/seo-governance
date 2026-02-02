@@ -1,0 +1,15 @@
+# Robots.txt Template – replace placeholders
+# Last reviewed: YYYY-MM-DD | Owner: TEAM_NAME
+
+User-agent: *
+# Allow typical assets:
+Allow: /*.css$
+Allow: /*.js$
+# Disallow internal admin and test areas:
+Disallow: /ADMIN_PATH/
+Disallow: /INTERNAL_TOOLS/
+Disallow: /SEARCH_ENDPOINT?q=
+# Crawl-delay (if required by policy):
+# Crawl-delay: 5
+
+Sitemap: https://WWW.EXAMPLE.GOV/sitemap.xml
